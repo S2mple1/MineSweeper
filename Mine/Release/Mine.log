@@ -1,0 +1,3 @@
+﻿  Assembling mine.asm...
+mine.asm(5): fatal error A1000: cannot open file : windows.inc
+D:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: 命令“ml.exe /c /nologo /Zi /Fo"Release\mine.obj" /W3 /errorReport:prompt  /Tamine.asm”已退出，返回代码为 1。
