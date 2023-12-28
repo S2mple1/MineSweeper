@@ -62,72 +62,72 @@ IDM_EXIT			equ		32780
 IDM_RULE			equ		32782
 IDM_ABOUT			equ		32784
 ;==============================================================
-DEFAULT_FRAME_X		equ		16				;´°¿ÚX·½Ïò¿í
-DEFAULT_FRAME_Y		equ		60				;´°¿ÚY·½Ïò¿í
-LINE_WIDTH_0		equ		3				;Ïß±ß0µÄ¿í¶È
-LINE_WIDTH_1		equ		2				;Ïß±ß1µÄ¿í¶È
-SIDE_WIDTH_0		equ		6				;±ß0µÄ¿í¶È
-SIDE_WIDTH_1		equ		5				;±ß1µÄ¿í¶È
-SHELL_S_H			equ		37				;Ğ¡Íâ¿ÇµÄ¸ß¶È
-SHELL_S_START_X		equ		9				;Ğ¡Íâ¿ÇµÄx×ø±êÊ¼·¢µã
-SHELL_S_START_Y		equ		9				;Ğ¡Íâ¿ÇµÄy×ø±êÊ¼·¢µã
-SHELL_L_START_X		equ		9				;´óÍâ¿ÇµÄx×ø±êÊ¼·¢µã
-SHELL_L_START_Y		equ		52 				;´óÍâ¿ÇµÄy×ø±êÊ¼·¢µã
-MINEAREA_FRAME_X	equ		12				;×ó²à¼ä¾à
-MINEAREA_FRAME_Y	equ		55				;¶¥²¿¼ä¾à
-MINE_WIDTH			equ		16				;À×·½¿éµÄ¿í¶ÈÎª16
-MINE_HEIGHT			equ		16				;À×·½¿éµÄ³¤¶ÈÎª16
-MINE_AREA_LEFT		equ		12				;×ó²à±ß¾à
-MINE_AREA_TOP		equ		55				;¶¥²¿±ß¾à
-STATE_NORMAL		equ		0				;Õı³£×´Ì¬
-STATE_FLAG			equ		1				;²åÆì±ê¼Ç
-STATE_DICEY			equ		2				;²»È·¶¨×´Ì¬1
-STATE_BLAST			equ		3				;±¬Õ¨×´Ì¬
-STATE_ERROR			equ		4				;´íÎó×´Ì¬
-STATE_MINE			equ		5				;ÓĞÀ××´Ì¬
-STATE_DICEY_DOWN	equ		6				;²»È·¶¨×´Ì¬2
-STATE_NUM8			equ		7				;ÖÜÎ§ÓĞ8¸öÀ×
-STATE_NUM7			equ		8				;ÖÜÎ§ÓĞ7¸öÀ×		
-STATE_NUM6			equ		9				;ÖÜÎ§ÓĞ6¸öÀ×
-STATE_NUM5			equ		10				;ÖÜÎ§ÓĞ5¸öÀ×
-STATE_NUM4			equ		11				;ÖÜÎ§ÓĞ4¸öÀ×
-STATE_NUM3			equ		12				;ÖÜÎ§ÓĞ3¸öÀ×
-STATE_NUM2			equ		13				;ÖÜÎ§ÓĞ2¸öÀ×
-STATE_NUM1			equ		14				;ÖÜÎ§ÓĞ1¸öÀ×
-STATE_EMPTY			equ		15				;ÖÜÎ§Ã»ÓĞÀ×
-ATTRIB_EMPTY		equ		0				;²»º¬µØÀ×
-ATTRIB_MINE			equ		1				;°üº¬µØÀ×
-DEFAULT_RECORD		equ		666				;Ä¬ÈÏÊ±¼ä¼ÇÂ¼
+DEFAULT_FRAME_X		equ		16				;çª—å£Xæ–¹å‘å®½
+DEFAULT_FRAME_Y		equ		60				;çª—å£Yæ–¹å‘å®½
+LINE_WIDTH_0		equ		3				;çº¿è¾¹0çš„å®½åº¦
+LINE_WIDTH_1		equ		2				;çº¿è¾¹1çš„å®½åº¦
+SIDE_WIDTH_0		equ		6				;è¾¹0çš„å®½åº¦
+SIDE_WIDTH_1		equ		5				;è¾¹1çš„å®½åº¦
+SHELL_S_H			equ		37				;å°å¤–å£³çš„é«˜åº¦
+SHELL_S_START_X		equ		9				;å°å¤–å£³çš„xåæ ‡å§‹å‘ç‚¹
+SHELL_S_START_Y		equ		9				;å°å¤–å£³çš„yåæ ‡å§‹å‘ç‚¹
+SHELL_L_START_X		equ		9				;å¤§å¤–å£³çš„xåæ ‡å§‹å‘ç‚¹
+SHELL_L_START_Y		equ		52 				;å¤§å¤–å£³çš„yåæ ‡å§‹å‘ç‚¹
+MINEAREA_FRAME_X	equ		12				;å·¦ä¾§é—´è·
+MINEAREA_FRAME_Y	equ		55				;é¡¶éƒ¨é—´è·
+MINE_WIDTH			equ		16				;é›·æ–¹å—çš„å®½åº¦ä¸º16
+MINE_HEIGHT			equ		16				;é›·æ–¹å—çš„é•¿åº¦ä¸º16
+MINE_AREA_LEFT		equ		12				;å·¦ä¾§è¾¹è·
+MINE_AREA_TOP		equ		55				;é¡¶éƒ¨è¾¹è·
+STATE_NORMAL		equ		0				;æ­£å¸¸çŠ¶æ€
+STATE_FLAG			equ		1				;æ’æ——æ ‡è®°
+STATE_DICEY			equ		2				;ä¸ç¡®å®šçŠ¶æ€1
+STATE_BLAST			equ		3				;çˆ†ç‚¸çŠ¶æ€
+STATE_ERROR			equ		4				;é”™è¯¯çŠ¶æ€
+STATE_MINE			equ		5				;æœ‰é›·çŠ¶æ€
+STATE_DICEY_DOWN	equ		6				;ä¸ç¡®å®šçŠ¶æ€2
+STATE_NUM8			equ		7				;å‘¨å›´æœ‰8ä¸ªé›·
+STATE_NUM7			equ		8				;å‘¨å›´æœ‰7ä¸ªé›·		
+STATE_NUM6			equ		9				;å‘¨å›´æœ‰6ä¸ªé›·
+STATE_NUM5			equ		10				;å‘¨å›´æœ‰5ä¸ªé›·
+STATE_NUM4			equ		11				;å‘¨å›´æœ‰4ä¸ªé›·
+STATE_NUM3			equ		12				;å‘¨å›´æœ‰3ä¸ªé›·
+STATE_NUM2			equ		13				;å‘¨å›´æœ‰2ä¸ªé›·
+STATE_NUM1			equ		14				;å‘¨å›´æœ‰1ä¸ªé›·
+STATE_EMPTY			equ		15				;å‘¨å›´æ²¡æœ‰é›·
+ATTRIB_EMPTY		equ		0				;ä¸å«åœ°é›·
+ATTRIB_MINE			equ		1				;åŒ…å«åœ°é›·
+DEFAULT_RECORD		equ		666				;é»˜è®¤æ—¶é—´è®°å½•
 COLOR_BLACK			equ		0
 COLOR_DARK_GRAY		equ		128+128*256+128*256*256
 COLOR_GRAY			equ		192+192*256+256*256*192
 COLOR_WHITE			equ		255+255*256+256*256*255
-PRIMARY_XNUM		equ		9				;³õ¼¶x¿í¶È
-PRIMARY_YNUM		equ		9				;³õ¼¶y¿í¶È
-PRIMARY_MINENUM		equ		10				;³õ¼¶µØÀ×¸öÊı
-SECONDARY_XNUM		equ		16				;ÖĞ¼¶x¿í¶È
-SECONDARY_YNUM		equ		16				;ÖĞ¼¶y¿í¶È
-SECONDARY_MINENUM	equ		40				;ÖĞ¼¶µØÀ×¸öÊı
-ADVANCE_XNUM		equ		30				;¸ß¼¶x¿í¶È
-ADVANCE_YNUM		equ		16				;¸ß¼¶x¿í¶È
-ADVANCE_MINENUM		equ		99				;¸ß¼¶µØÀ×¸öÊı
-; ÓÎÏ·×´Ì¬
-GameState_WAIT		equ		0				;µÈ´ı¿ªÊ¼
-GameState_RUN		equ		1				;½øĞĞÖĞ
-GameState_DEAD		equ		2				;ÓÎÏ·Ê§°Ü
-GameState_VICTORY	equ		3				;ÓÎÏ·Ê¤Àû
-; ÓÎÏ·¼¶±ğ
-LEVEL_PRIMARY		equ		0				;³õ¼¶
-LEVEL_SECONDARY		equ		1				;ÖĞ¼¶
-LEVEL_ADVANCE		equ		2				;¸ß¼¶
-LEVEL_CUSTOM		equ		3				;×Ô¶¨Òå
-; Ğ¦Á³°´Å¥×´Ì¬
-BUTTON_DOWN			equ		0				;±»°´ÏÂ
-BUTTON_VICTORY		equ		1				;ÓÎÏ·Ê¤Àû
-BUTTON_DEAD			equ		2				;ÓÎÏ·Ê§°Ü
-BUTTON_CLICK		equ		3				;µã»÷±ğ´¦
-BUTTON_NORMAL		equ		4				;Õı³£×´Ì¬
-ID_TIMER_EVENT		equ		20				;¼ÆÊ±Æ÷
+PRIMARY_XNUM		equ		9				;åˆçº§xå®½åº¦
+PRIMARY_YNUM		equ		9				;åˆçº§yå®½åº¦
+PRIMARY_MINENUM		equ		10				;åˆçº§åœ°é›·ä¸ªæ•°
+SECONDARY_XNUM		equ		16				;ä¸­çº§xå®½åº¦
+SECONDARY_YNUM		equ		16				;ä¸­çº§yå®½åº¦
+SECONDARY_MINENUM	equ		40				;ä¸­çº§åœ°é›·ä¸ªæ•°
+ADVANCE_XNUM		equ		30				;é«˜çº§xå®½åº¦
+ADVANCE_YNUM		equ		16				;é«˜çº§xå®½åº¦
+ADVANCE_MINENUM		equ		99				;é«˜çº§åœ°é›·ä¸ªæ•°
+; æ¸¸æˆçŠ¶æ€
+GameState_WAIT		equ		0				;ç­‰å¾…å¼€å§‹
+GameState_RUN		equ		1				;è¿›è¡Œä¸­
+GameState_DEAD		equ		2				;æ¸¸æˆå¤±è´¥
+GameState_VICTORY	equ		3				;æ¸¸æˆèƒœåˆ©
+; æ¸¸æˆçº§åˆ«
+LEVEL_PRIMARY		equ		0				;åˆçº§
+LEVEL_SECONDARY		equ		1				;ä¸­çº§
+LEVEL_ADVANCE		equ		2				;é«˜çº§
+LEVEL_CUSTOM		equ		3				;è‡ªå®šä¹‰
+; ç¬‘è„¸æŒ‰é’®çŠ¶æ€
+BUTTON_DOWN			equ		0				;è¢«æŒ‰ä¸‹
+BUTTON_VICTORY		equ		1				;æ¸¸æˆèƒœåˆ©
+BUTTON_DEAD			equ		2				;æ¸¸æˆå¤±è´¥
+BUTTON_CLICK		equ		3				;ç‚¹å‡»åˆ«å¤„
+BUTTON_NORMAL		equ		4				;æ­£å¸¸çŠ¶æ€
+ID_TIMER_EVENT		equ		20				;è®¡æ—¶å™¨
 ;==============================================================
 .data?
 hInstance			HINSTANCE	?
@@ -135,21 +135,21 @@ hWinMain			HWND		?
 hMenu 				HMENU		?
 g_dc				dword 		?
 MINESTRUCT struct
-	uRow			UINT 	?;ËùÔÚÀ×Çø¶şÎ¬Êı×éµÄĞĞ
-	uCol			UINT 	?;ËùÔÚÀ×Çø¶şÎ»Êı×éµÄÁĞ
-	uNowState		UINT 	?;·½¿éµ±Ç°×´Ì¬
-	uAttribute		UINT 	?;·½¿éÊôĞÔ
-	uOldState		UINT 	?;·½¿éÀúÊ·×´Ì¬
+	uRow			UINT 	?;æ‰€åœ¨é›·åŒºäºŒç»´æ•°ç»„çš„è¡Œ
+	uCol			UINT 	?;æ‰€åœ¨é›·åŒºäºŒä½æ•°ç»„çš„åˆ—
+	uNowState		UINT 	?;æ–¹å—å½“å‰çŠ¶æ€
+	uAttribute		UINT 	?;æ–¹å—å±æ€§
+	uOldState		UINT 	?;æ–¹å—å†å²çŠ¶æ€
 MINESTRUCT ends
-g_uXNum				UINT 	?;X·½ÏòĞ¡·½¿é¸öÊı
-g_uYNum				UINT 	?;Y·½ÏòĞ¡·½¿é¸öÊı
-g_uMineNum			UINT 	?;×ÜµÄÀ×¸öÊı
-g_nLeaveNum			dword 	?;Ê£ÓàµÄÀ×¸öÊı
+g_uXNum				UINT 	?;Xæ–¹å‘å°æ–¹å—ä¸ªæ•°
+g_uYNum				UINT 	?;Yæ–¹å‘å°æ–¹å—ä¸ªæ•°
+g_uMineNum			UINT 	?;æ€»çš„é›·ä¸ªæ•°
+g_nLeaveNum			dword 	?;å‰©ä½™çš„é›·ä¸ªæ•°
 g_uSpendTime		UINT 	?
-g_uGameState		UINT 	?;ÓÎÏ·×´Ì¬
+g_uGameState		UINT 	?;æ¸¸æˆçŠ¶æ€
 g_uTimer			UINT 	?
 g_uNewState 		UINT 	?
-g_uLevel 			UINT 	?;µ±Ç°ÓÎÏ·µÈ¼¶
+g_uLevel 			UINT 	?;å½“å‰æ¸¸æˆç­‰çº§
 g_uPrimary 			UINT 	?
 g_uSecond 			UINT 	?
 g_uAdvance 			UINT 	?
@@ -186,9 +186,9 @@ g_strPath 			CHAR MAX_PATH dup(?)
 ;==============================================================
 	.const
 szClassName			CHAR	'MineClass',0
-szRule				CHAR	'¹æÔò',0
-szAbout				CHAR	'¿ª·¢Õß£ºÖÜºÀ½İ¡ª¡ª±±¾©Àí¹¤´óÑ§2021¼¶¼ÆËã»úÑ§Ôº',0
-szCaptionMain 		CHAR	'É¨À×',0
+szRule				CHAR	'è§„åˆ™',0
+szAbout				CHAR	'å¼€å‘è€…ï¼šå‘¨è±ªæ·â€”â€”åŒ—äº¬ç†å·¥å¤§å­¦2021çº§è®¡ç®—æœºå­¦é™¢',0
+szCaptionMain 		CHAR	'æ‰«é›·',0
 szconfigPath 		CHAR 	'\config.ini',0;
 szWINDOW 			CHAR 	'WINDOW',0
 szXNum 				CHAR 	'XNum',0
@@ -204,7 +204,7 @@ szHOLDER 			CHAR 	'HOLDER',0
 szPrimaryHolder		CHAR	'PrimaryHolder',0
 szSecondHolder 		CHAR	'SecondHolder',0
 szAdvanceHolder		CHAR	'AdvanceHolder',0
-szNiMing 			CHAR 	'ÉñÃØÈË',0
+szNiMing 			CHAR 	'ç¥ç§˜äºº',0
 szCONFIG 			CHAR	'CONFIG',0
 szMarkful 			CHAR 	'Markful',0
 szColorful 			CHAR 	'Colorful',0
@@ -212,13 +212,13 @@ szSoundful 			CHAR 	'Soundful',0
 szBu 				CHAR	'%u',0
 szBd 				CHAR	'%d',0
 szWAVE 				CHAR 	'WAVE',0
-szBdm 				CHAR 	'%dÃë',0
-szChuji 			CHAR 	'³õ¼¶',0
-szZhongji  			CHAR	'ÖĞ¼¶',0
-szGaoji 			CHAR 	'¸ß¼¶',0
-szwww 				CHAR 	'´òÆÆ%s¼ÇÂ¼£¡',0dh,0ah,'ÁôÏÂÄúµÄĞÕÃû£º',0
+szBdm 				CHAR 	'%dç§’',0
+szChuji 			CHAR 	'åˆçº§',0
+szZhongji  			CHAR	'ä¸­çº§',0
+szGaoji 			CHAR 	'é«˜çº§',0
+szwww 				CHAR 	'æ‰“ç ´%sè®°å½•ï¼',0dh,0ah,'ç•™ä¸‹æ‚¨çš„å§“åï¼š',0
 ;==============================================================
-; ´úÂë¶Î
+; ä»£ç æ®µ
 	.code
 DrawArea1 proc uses eax ebx ecx edx esi edi
 local dcMemory
@@ -364,7 +364,7 @@ local timersound
 	mov ecx,20
 	mul ecx
 	add esi,eax
-	.if dword ptr g_pMines[esi+12]== ATTRIB_MINE ;Ê§°Ü
+	.if dword ptr g_pMines[esi+12]== ATTRIB_MINE ;å¤±è´¥
 		mov esi,0
 		mov edi,0
 		mov eax,0
@@ -393,7 +393,7 @@ local timersound
 		add esi,eax
 		mov dword ptr g_pMines[esi+8],STATE_BLAST
 		mov dword ptr g_pMines[esi+16],STATE_BLAST
-	.else  ;´íÎó
+	.else  ;é”™è¯¯
 		mov esi,0
 		mov edi,0
 		mov eax,0
@@ -423,13 +423,13 @@ local timersound
 		mov dword ptr g_pMines[esi+8],STATE_ERROR
 		mov dword ptr g_pMines[esi+16],STATE_ERROR
 	.endif
-	;Ê§°Ü
+	;å¤±è´¥
 	mov g_uBtnState , BUTTON_DEAD;
 	mov g_uGameState , GameState_DEAD;
 	invoke InvalidateRect,hWinMain,addr rcMineArea,0
 	invoke InvalidateRect,hWinMain,addr rcBtn,0
 	.if g_uTimer != 0
-    ;½«¶¨Ê±Æ÷È¥¼¤»î
+    ;å°†å®šæ—¶å™¨å»æ¿€æ´»
 		invoke KillTimer,hWinMain,ID_TIMER_EVENT
 		mov g_uTimer , 0
 	.endif
@@ -591,24 +591,24 @@ assume esi :ptr MINESTRUCT
 DrawDownNum endp
 ;==============================================================
 IsInMineArea proc uses ecx row, col
-    ; »ñÈ¡À×ÇøµÄĞĞÊıºÍÁĞÊı
+    ; è·å–é›·åŒºçš„è¡Œæ•°å’Œåˆ—æ•°
     mov eax, g_uYNum
     mov ecx, g_uXNum
-    ; ¼ì²é×ø±êÊÇ·ñÔÚÀ×Çø·¶Î§ÄÚ
+    ; æ£€æŸ¥åæ ‡æ˜¯å¦åœ¨é›·åŒºèŒƒå›´å†…
     .if (row >= 0) && (eax > row) && (col >= 0) && (ecx > col)
-        mov eax, 1  ; Èç¹ûÔÚÀ×ÇøÄÚ£¬ÉèÖÃ eax Îª 1
+        mov eax, 1  ; å¦‚æœåœ¨é›·åŒºå†…ï¼Œè®¾ç½® eax ä¸º 1
         ret
     .endif
-    ; Èç¹û²»ÔÚÀ×ÇøÄÚ£¬ÉèÖÃ eax Îª 0
+    ; å¦‚æœä¸åœ¨é›·åŒºå†…ï¼Œè®¾ç½® eax ä¸º 0
     mov eax, 0
     ret
 IsInMineArea endp
 ;==============================================================
 FillSolidRect proc hdc, x, y, cc, cy, clr
 local rect:RECT
-    ; ÉèÖÃ±³¾°ÑÕÉ«ÎªÖ¸¶¨µÄÑÕÉ«
+    ; è®¾ç½®èƒŒæ™¯é¢œè‰²ä¸ºæŒ‡å®šçš„é¢œè‰²
     invoke SetBkColor, hdc, clr
-    ; ÉèÖÃ¾ØĞÎµÄ×ó¡¢ÓÒ¡¢ÉÏ¡¢ÏÂ±ß½ç
+    ; è®¾ç½®çŸ©å½¢çš„å·¦ã€å³ã€ä¸Šã€ä¸‹è¾¹ç•Œ
     mov eax, x
     mov rect.left, eax
     add eax, cc
@@ -623,7 +623,7 @@ FillSolidRect endp
 ;==============================================================
 Draw3dRect proc hdc, x, y, cc, cy, clrTopLeft, clrBottomRight
 local temp
-    ; »æÖÆ×ó±ß¿ò
+    ; ç»˜åˆ¶å·¦è¾¹æ¡†
 	mov eax, cc
 	dec eax
 	mov temp, eax
@@ -631,17 +631,17 @@ local temp
 	mov eax, cy
 	dec eax
 	mov temp, eax
-    ; »æÖÆÉÏ±ß¿ò
+    ; ç»˜åˆ¶ä¸Šè¾¹æ¡†
 	invoke FillSolidRect, hdc, x, y, 1, temp, clrTopLeft
 	mov eax, x
 	add eax, cc
 	mov temp, eax
-    ; »æÖÆÓÒ±ß¿ò
+    ; ç»˜åˆ¶å³è¾¹æ¡†
 	invoke FillSolidRect, hdc, temp, y, -1, cy, clrBottomRight
 	mov eax, y
 	add eax, cy
 	mov temp, eax
-    ; »æÖÆÏÂ±ß¿ò
+    ; ç»˜åˆ¶ä¸‹è¾¹æ¡†
 	invoke FillSolidRect, hdc, x, temp, cc, -1, clrBottomRight
 	ret
 Draw3dRect endp
@@ -655,11 +655,11 @@ local oi
 	invoke CreateCompatibleDC, g_dc
 	mov dcMemory, eax
 	invoke SelectObject, dcMemory, g_bmpNumber
-    ; »æÖÆ¾ØĞÎ±ß¿ò
+    ; ç»˜åˆ¶çŸ©å½¢è¾¹æ¡†
 	invoke Draw3dRect, g_dc, 16, 15, 41, 25, g_clrDark, COLOR_WHITE
 	invoke Draw3dRect, g_dc, g_uNumRect[0], 15, 41, 25, g_clrDark, COLOR_WHITE
 	mov oi, 0
-    ; »æÖÆÊ£ÓàÀ×ÊıµÄ°ÙÎ»Êı×Ö
+    ; ç»˜åˆ¶å‰©ä½™é›·æ•°çš„ç™¾ä½æ•°å­—
 	cmp g_nLeaveNum, 0
 	jge Tn1
 	mov eax, 11
@@ -678,7 +678,7 @@ Tn2:
 	neg eax
 	mov numtemp, eax
 	invoke StretchBlt, g_dc, g_uNumRect[0], 16, 13, 23, dcMemory, 0, numtemp, 13, 23, SRCCOPY
-    ; »æÖÆÊ£ÓàÀ×ÊıµÄÊ®Î»Êı×Ö
+    ; ç»˜åˆ¶å‰©ä½™é›·æ•°çš„åä½æ•°å­—
 	cmp g_nLeaveNum, 0
 	jge Tn3
 	mov oi, 1
@@ -709,7 +709,7 @@ Tn3:
 	add eax, 13
 	mov temp, eax
 	invoke StretchBlt, g_dc, temp, 16, 13, 23, dcMemory, 0, numtemp, 13, 23, SRCCOPY
-    ; »æÖÆÊ£ÓàÀ×ÊıµÄ¸öÎ»Êı×Ö
+    ; ç»˜åˆ¶å‰©ä½™é›·æ•°çš„ä¸ªä½æ•°å­—
 	mov eax, g_nLeaveNum
 	mov ecx, 10
 	mov edx, 0
@@ -729,7 +729,7 @@ Tn3:
 		neg eax
 		mov g_nLeaveNum, eax
 	.endif
-    ; »æÖÆÊ±¼äµÄ°ÙÎ»Êı×Ö
+    ; ç»˜åˆ¶æ—¶é—´çš„ç™¾ä½æ•°å­—
 	mov edx, 0
 	mov eax, g_uSpendTime
 	mov ecx, 100
@@ -742,7 +742,7 @@ Tn3:
 	neg eax
 	mov numtemp, eax
 	invoke StretchBlt, g_dc, 17, 16, 13, 23, dcMemory, 0, numtemp, 13, 23, SRCCOPY
-    ; »æÖÆÊ±¼äµÄÊ®Î»Êı×Ö
+    ; ç»˜åˆ¶æ—¶é—´çš„åä½æ•°å­—
 	mov eax, num
 	mov ecx, 100
 	mul ecx
@@ -759,7 +759,7 @@ Tn3:
 	neg eax
 	mov numtemp, eax
 	invoke StretchBlt, g_dc, 30, 16, 13, 23, dcMemory, 0, numtemp, 13, 23, SRCCOPY
-    ; »æÖÆÊ±¼äµÄ¸öÎ»Êı×Ö
+    ; ç»˜åˆ¶æ—¶é—´çš„ä¸ªä½æ•°å­—
 	mov eax, g_uSpendTime
 	mov ecx, 10
 	mov edx, 0
@@ -789,13 +789,13 @@ local t3
 	invoke SelectObject, dcMemory, g_bmpMine
 	mov esi, 0
 	mov edi, 0
-    ; Ñ­»·±éÀúÀ×ÇøµÄĞĞ
+    ; å¾ªç¯éå†é›·åŒºçš„è¡Œ
 	mov eax, 0
 	.while eax < g_uYNum
 		mov ebx, 0
 		.while ebx < g_uXNum
 			pushad
-            ; ¼ÆËã»æÖÆÎ»ÖÃ
+            ; è®¡ç®—ç»˜åˆ¶ä½ç½®
 			mov ecx, 16
 			mul ecx
 			mov t2, eax
@@ -812,10 +812,10 @@ local t3
 			invoke StretchBlt, g_dc, t1, t2, 16, 16, dcMemory, 0, t3, 16, 16, SRCCOPY
 			popad
 			inc ebx
-			add esi, 20 ; ÒÆ¶¯µ½ÏÂÒ»ÁĞ
+			add esi, 20 ; ç§»åŠ¨åˆ°ä¸‹ä¸€åˆ—
 		.endw
 		inc eax
-		add edi, 2000 ; ÒÆ¶¯µ½ÏÂÒ»ĞĞ
+		add edi, 2000 ; ç§»åŠ¨åˆ°ä¸‹ä¸€è¡Œ
 		mov esi, edi
 	.endw
 	invoke DeleteObject, g_bmpMine
@@ -832,12 +832,12 @@ local temp
 	mov ecx, 24
 	mul ecx
 	mov temp, eax
-    ; Ñ¡ÔñÎ»Í¼
+    ; é€‰æ‹©ä½å›¾
 	invoke SelectObject, ButtonDc, g_bmpButton
-    ; »æÖÆ°´Å¥µÄÍ¼Ïñ
+    ; ç»˜åˆ¶æŒ‰é’®çš„å›¾åƒ
 	invoke StretchBlt, g_dc, g_uBtnRect[0], 16, 24, 24, ButtonDc, 0, temp, 24, 24, SRCCOPY
 	invoke DeleteObject, g_bmpButton
-    ; ÔÚ°´Å¥µÄ±ß¿òÉÏ»æÖÆÁ¢ÌåĞ§¹û
+    ; åœ¨æŒ‰é’®çš„è¾¹æ¡†ä¸Šç»˜åˆ¶ç«‹ä½“æ•ˆæœ
 	invoke Draw3dRect, g_dc, g_uBtnRect[4], 15, 26, 26, g_clrDark, g_clrDark
 	invoke ReleaseDC, hWinMain, ButtonDc
 	ret
@@ -847,7 +847,7 @@ DrawShell proc uses  edx esi edi ecx eax ebx
 local rect:RECT
 local temp
 local tempt
-    ; »æÖÆÁ½Ìõ°×É«ÌõÎÆ
+    ; ç»˜åˆ¶ä¸¤æ¡ç™½è‰²æ¡çº¹
 	mov rect.left, 0
 	mov rect.top, 0
 	mov eax, g_uShellRcX[0]
@@ -860,7 +860,7 @@ local tempt
 	mov eax, g_uShellRcY[0]
 	mov rect.bottom, eax
 	invoke FillRect, g_dc, addr rect, COLOR_WHITE
-    ; »­Ğ¡µÄÍâ¿Ç
+    ; ç”»å°çš„å¤–å£³
 	invoke Draw3dRect, g_dc, SHELL_S_START_X, SHELL_S_START_Y, \
 	g_uShellRcX[4], SHELL_S_H, g_clrDark, COLOR_WHITE
 	mov eax, g_uShellRcX[4]
@@ -871,7 +871,7 @@ local tempt
 	mov eax, g_uShellRcY[4]
 	sub eax, 2
 	mov tempt, eax
-    ; »­´óµÄÍâ¿Ç
+    ; ç”»å¤§çš„å¤–å£³
 	invoke Draw3dRect, g_dc, SHELL_L_START_X, SHELL_L_START_Y, \
 	g_uShellRcX[4], g_uShellRcY[4], g_clrDark, COLOR_WHITE
 	invoke Draw3dRect, g_dc, SHELL_L_START_X + 1, SHELL_L_START_Y + 1, \
@@ -886,7 +886,7 @@ DrawShell endp
 ;=======================================================================================================================
 DrawSpecialMine proc uses ecx row, col
 local rcMine:RECT
-    ; ¼ÆËãÀ×·½¿éµÄ¾ØĞÎÇøÓò
+    ; è®¡ç®—é›·æ–¹å—çš„çŸ©å½¢åŒºåŸŸ
 	mov eax, col
 	mov ecx, 16
 	mul ecx
@@ -905,12 +905,12 @@ DrawSpecialMine endp
 ;=======================================================================================================================
 LoadWaveSrc proc
 local hSrc:HRSRC
-    ; ¼ÓÔØËÀÍöÒôĞ§×ÊÔ´
+    ; åŠ è½½æ­»äº¡éŸ³æ•ˆèµ„æº
 	invoke FindResource, hInstance, IDR_WAVE_DEAD, addr szWAVE
 	mov hSrc, eax
 	invoke LoadResource, hInstance, hSrc
 	mov g_pSndDead, eax
-    ; ¼ÓÔØÊ¤ÀûÒôĞ§×ÊÔ´
+    ; åŠ è½½èƒœåˆ©éŸ³æ•ˆèµ„æº
 	invoke FindResource, hInstance, IDR_WAVE_VICTORY, addr szWAVE
 	mov hSrc, eax
 	invoke LoadResource, hInstance, hSrc
@@ -920,12 +920,12 @@ local hSrc:HRSRC
 LoadWaveSrc endp
 ;=======================================================================================================================
 FreeWaveSrc proc
-	; ÊÍ·ÅËÀÍöÒôĞ§×ÊÔ´
+	; é‡Šæ”¾æ­»äº¡éŸ³æ•ˆèµ„æº
 	.if g_pSndDead
 		invoke FreeResource, g_pSndDead
 		mov g_pSndDead, NULL
 	.endif
-	; ÊÍ·ÅÊ¤ÀûÒôĞ§×ÊÔ´
+	; é‡Šæ”¾èƒœåˆ©éŸ³æ•ˆèµ„æº
 	.if g_pSndVictory
 		invoke FreeResource, g_pSndVictory
 		mov g_pSndVictory, NULL
@@ -937,14 +937,14 @@ FreeWaveSrc endp
 LoadConfig proc
 	invoke GetCurrentDirectory, MAX_PATH, addr g_strPath
 	invoke lstrcat, addr g_strPath, addr szconfigPath
-	; ´ÓÅäÖÃÎÄ¼şÖĞ¶ÁÈ¡´°¿ÚµÄ X¡¢Y ·½ÏòĞ¡·½¿é¸öÊıºÍÀ×µÄ×ÜÊı
+	; ä»é…ç½®æ–‡ä»¶ä¸­è¯»å–çª—å£çš„ Xã€Y æ–¹å‘å°æ–¹å—ä¸ªæ•°å’Œé›·çš„æ€»æ•°
 	invoke GetPrivateProfileInt, addr szWINDOW, addr szXNum, 9, addr g_strPath
 	mov g_uXNum, eax
 	invoke GetPrivateProfileInt, addr szWINDOW, addr szYNum, 9, addr g_strPath
 	mov g_uYNum, eax
 	invoke GetPrivateProfileInt, addr szMINE, addr szMineNum, 10, addr g_strPath
 	mov g_uMineNum, eax
-	; ´ÓÅäÖÃÎÄ¼şÖĞ¶ÁÈ¡ÓÎÏ·µÈ¼¶ºÍ¼ÇÂ¼ĞÅÏ¢
+	; ä»é…ç½®æ–‡ä»¶ä¸­è¯»å–æ¸¸æˆç­‰çº§å’Œè®°å½•ä¿¡æ¯
 	invoke GetPrivateProfileInt, addr szMINE, addr szLevel, 0, addr g_strPath
 	mov g_uLevel, eax
 	invoke GetPrivateProfileInt, addr szSCORE, addr szPrimary, 666, addr g_strPath
@@ -953,11 +953,11 @@ LoadConfig proc
 	mov g_uSecond, eax
 	invoke GetPrivateProfileInt, addr szSCORE, addr szAdvance, 666, addr g_strPath
 	mov g_uAdvance, eax
-	; ´ÓÅäÖÃÎÄ¼şÖĞ¶ÁÈ¡¼ÇÂ¼±£³ÖÕßµÄĞÅÏ¢
+	; ä»é…ç½®æ–‡ä»¶ä¸­è¯»å–è®°å½•ä¿æŒè€…çš„ä¿¡æ¯
 	invoke GetPrivateProfileString, addr szHOLDER, addr szPrimaryHolder, addr szNiMing, addr g_szPrimary, 80, addr g_strPath
 	invoke GetPrivateProfileString, addr szHOLDER, addr szSecondHolder, addr szNiMing, addr g_szSecond, 80, addr g_strPath
 	invoke GetPrivateProfileString, addr szHOLDER, addr szAdvanceHolder, addr szNiMing, addr g_szAdvance, 80, addr g_strPath
-	; ´ÓÅäÖÃÎÄ¼şÖĞ¶ÁÈ¡²ÊÉ«ÏÔÊ¾ºÍÉùÒô¿ª¹ØµÄÉèÖÃ
+	; ä»é…ç½®æ–‡ä»¶ä¸­è¯»å–å½©è‰²æ˜¾ç¤ºå’Œå£°éŸ³å¼€å…³çš„è®¾ç½®
 	invoke GetPrivateProfileInt, addr szCONFIG, addr szColorful, 1, addr g_strPath
 	mov g_bColorful, eax
 	invoke GetPrivateProfileInt, addr szCONFIG, addr szSoundful, 1, addr g_strPath
@@ -965,15 +965,15 @@ LoadConfig proc
 	ret
 LoadConfig endp
 ;=======================================================================================================================
-;±£´æ³ÌĞòÅäÖÃĞÅÏ¢µ½.iniÎÄ¼ş
+;ä¿å­˜ç¨‹åºé…ç½®ä¿¡æ¯åˆ°.iniæ–‡ä»¶
 SaveConfig proc
-local strXNum[5]:CHAR;À×ÇøĞĞÁĞÊı
+local strXNum[5]:CHAR;é›·åŒºè¡Œåˆ—æ•°
 local strYNum[5]:CHAR
 local strMineNum[5]:CHAR
-local strLevel[5]:CHAR ;À×Êı Ñ¡Ôñ¼¶±ğ
-local strPrimary[5]:CHAR ;¼ÇÂ¼±£³Ö·ÖÊı
+local strLevel[5]:CHAR ;é›·æ•° é€‰æ‹©çº§åˆ«
+local strPrimary[5]:CHAR ;è®°å½•ä¿æŒåˆ†æ•°
 local strSecond[5]:CHAR
-local strAdvance[5]:CHAR ;¼ÇÂ¼±£³ÖÕß
+local strAdvance[5]:CHAR ;è®°å½•ä¿æŒè€…
 local strMarkful[5]:CHAR
 local strColorful[5]:CHAR
 local strSoundful[5]:CHAR
@@ -1019,7 +1019,7 @@ local uHeight:UINT
 	mul ecx
 	add eax,DEFAULT_FRAME_Y +  LINE_WIDTH_0 * 3 + SIDE_WIDTH_0 * 2 + SIDE_WIDTH_1 + SHELL_S_H
 	mov uHeight ,eax
-	; ¼ÆËã²¢ÉèÖÃÖ÷´°¿ÚµÄ´óĞ¡£¬È·±£À×Çø¡¢¼ÆÊ±Æ÷¡¢°´Å¥¡¢Íâ¿ÇµÈ¶¼ÄÜÍêÈ«ÏÔÊ¾ÔÚ´°¿ÚÖĞ
+	; è®¡ç®—å¹¶è®¾ç½®ä¸»çª—å£çš„å¤§å°ï¼Œç¡®ä¿é›·åŒºã€è®¡æ—¶å™¨ã€æŒ‰é’®ã€å¤–å£³ç­‰éƒ½èƒ½å®Œå…¨æ˜¾ç¤ºåœ¨çª—å£ä¸­
 	invoke SetWindowPos,hWinMain,HWND_TOPMOST, 0, 0, uWidth, uHeight,\
 	SWP_NOZORDER or SWP_NOMOVE or SWP_NOCOPYBITS
 	invoke GetClientRect,hWinMain,addr g_rcClient
@@ -1072,7 +1072,7 @@ SetCheckedLevel proc
 SetCheckedLevel  endp
 ;=======================================================================================================================
 SetCheckedMark proc
-	; ¸ù¾İÈ«¾Ö±äÁ¿ g_bMarkful µÄÖµÉèÖÃ²Ëµ¥Ïî IDM_MARK µÄÑ¡ÖĞ×´Ì¬
+	; æ ¹æ®å…¨å±€å˜é‡ g_bMarkful çš„å€¼è®¾ç½®èœå•é¡¹ IDM_MARK çš„é€‰ä¸­çŠ¶æ€
 	.if g_bMarkful
 		invoke CheckMenuItem,hMenu,IDM_MARK, MF_CHECKED or MF_BYCOMMAND
 	.else
@@ -1082,7 +1082,7 @@ SetCheckedMark proc
 SetCheckedMark endp
 ;=======================================================================================================================
 SetCheckedColor proc
-	; ¸ù¾İÈ«¾Ö±äÁ¿ g_bColorful µÄÖµÉèÖÃ²Ëµ¥Ïî IDM_COLOR µÄÑ¡ÖĞ×´Ì¬
+	; æ ¹æ®å…¨å±€å˜é‡ g_bColorful çš„å€¼è®¾ç½®èœå•é¡¹ IDM_COLOR çš„é€‰ä¸­çŠ¶æ€
 	.if g_bColorful
 		invoke CheckMenuItem,hMenu,IDM_COLOR, MF_CHECKED or MF_BYCOMMAND
 	.else
@@ -1092,7 +1092,7 @@ SetCheckedColor proc
 SetCheckedColor endp
 ;=======================================================================================================================
 SetCheckedSound proc
-	; ¸ù¾İÈ«¾Ö±äÁ¿ g_bSoundful µÄÖµÉèÖÃ²Ëµ¥Ïî IDM_SOUND µÄÑ¡ÖĞ×´Ì¬
+	; æ ¹æ®å…¨å±€å˜é‡ g_bSoundful çš„å€¼è®¾ç½®èœå•é¡¹ IDM_SOUND çš„é€‰ä¸­çŠ¶æ€
 	.if g_bSoundful
 		invoke CheckMenuItem,hMenu,IDM_SOUND, MF_CHECKED or MF_BYCOMMAND
 	.else
@@ -1102,7 +1102,7 @@ SetCheckedSound proc
 SetCheckedSound endp
 ;=======================================================================================================================
 Loadmap proc
-	; ¸ù¾İÈ«¾Ö±äÁ¿ g_bColorful ¼ÓÔØÏàÓ¦µÄÎ»Í¼×ÊÔ´£¬²¢ÉèÖÃÑÕÉ«
+	; æ ¹æ®å…¨å±€å˜é‡ g_bColorful åŠ è½½ç›¸åº”çš„ä½å›¾èµ„æºï¼Œå¹¶è®¾ç½®é¢œè‰²
 	.if g_bColorful
 		mov g_clrDark ,COLOR_DARK_GRAY
 		invoke DeleteObject,g_bmpMine
@@ -1130,21 +1130,21 @@ Loadmap proc
 Loadmap endp
 ;=======================================================================================================================
 InitGame proc uses ebx edi esi eax ecx edx
-	; ³õÊ¼»¯ÓÎÏ·Ïà¹Ø±äÁ¿£¬°üÀ¨µØÍ¼¡¢À×Êı¡¢¼ÆÊ±Æ÷µÈ
+	; åˆå§‹åŒ–æ¸¸æˆç›¸å…³å˜é‡ï¼ŒåŒ…æ‹¬åœ°å›¾ã€é›·æ•°ã€è®¡æ—¶å™¨ç­‰
 	invoke Loadmap
 	mov eax,g_uMineNum
 	mov g_nLeaveNum ,eax
 	mov g_uSpendTime , 0
 	mov g_uBtnState, BUTTON_NORMAL
 	mov g_uGameState , GameState_WAIT
-	; Èç¹û¼ÆÊ±Æ÷ÒÑÆô¶¯£¬Í£Ö¹¼ÆÊ±Æ÷
+	; å¦‚æœè®¡æ—¶å™¨å·²å¯åŠ¨ï¼Œåœæ­¢è®¡æ—¶å™¨
 	.if g_uTimer
 		invoke KillTimer,hWinMain,ID_TIMER_EVENT
 		mov g_uTimer , 0
 	.endif
 	mov g_pNewMine ,NULL
 	mov g_pOldMine , NULL
-	; ³õÊ¼»¯µØÍ¼
+	; åˆå§‹åŒ–åœ°å›¾
 	mov esi,0
 	mov edi,0
 	mov eax,0
@@ -1167,14 +1167,14 @@ InitGame proc uses ebx edi esi eax ecx edx
 InitGame endp
 ;=======================================================================================================================
 DlgCProc	proc	uses ebx edi esi hDlg,message,wParam,lParam
-	; ×Ô¶¨ÒåÄÑ¶È¶Ô»°¿òµÄ´¦Àí¹ı³Ì
+	; è‡ªå®šä¹‰éš¾åº¦å¯¹è¯æ¡†çš„å¤„ç†è¿‡ç¨‹
 	local tempw[10]:CHAR
 	local temph[10]:CHAR
 	local tempm[10]:CHAR
 	local temp
 	mov eax,message
 	.if eax==WM_INITDIALOG
-		; ÔÚ¶Ô»°¿ò³õÊ¼»¯Ê±£¬½«È«¾Ö±äÁ¿ÖĞµÄÖµÌî³äµ½±à¼­¿òÖĞ
+		; åœ¨å¯¹è¯æ¡†åˆå§‹åŒ–æ—¶ï¼Œå°†å…¨å±€å˜é‡ä¸­çš„å€¼å¡«å……åˆ°ç¼–è¾‘æ¡†ä¸­
 		invoke crt__itoa,g_uXNum, addr tempw, 10
 		invoke GetDlgItem ,hDlg, IDC_WIDTH
 		mov temp,eax
@@ -1194,7 +1194,7 @@ DlgCProc	proc	uses ebx edi esi hDlg,message,wParam,lParam
 		mov eax,wParam
 		movzx eax,ax
 		.if eax== IDOK
-			; ÔÚÓÃ»§µã»÷È·¶¨°´Å¥Ê±£¬»ñÈ¡±à¼­¿òÖĞµÄÖµ£¬¸üĞÂÈ«¾Ö±äÁ¿
+			; åœ¨ç”¨æˆ·ç‚¹å‡»ç¡®å®šæŒ‰é’®æ—¶ï¼Œè·å–ç¼–è¾‘æ¡†ä¸­çš„å€¼ï¼Œæ›´æ–°å…¨å±€å˜é‡
 			invoke GetDlgItem ,hDlg, IDC_WIDTH
 			mov temp,eax
 			invoke    GetWindowText,temp, addr tempw,10
@@ -1210,7 +1210,7 @@ DlgCProc	proc	uses ebx edi esi hDlg,message,wParam,lParam
 			mov g_uYNum ,eax
 			invoke crt_atoi,addr tempm
 			mov g_uMineNum ,eax
-			; ¶ÔÊäÈëÖµ½øĞĞºÏÀíĞÔ¼ì²é
+			; å¯¹è¾“å…¥å€¼è¿›è¡Œåˆç†æ€§æ£€æŸ¥
 			.if g_uXNum < 9
 				mov g_uXNum , 9
 			.endif
@@ -1234,7 +1234,7 @@ DlgCProc	proc	uses ebx edi esi hDlg,message,wParam,lParam
 			.if eax<g_uMineNum
 				mov g_uMineNum , eax
 			.endif
-			; ¹Ø±Õ¶Ô»°¿ò
+			; å…³é—­å¯¹è¯æ¡†
 			invoke EndDialog,hDlg, 0
 			mov eax,1
 			ret
@@ -1249,14 +1249,14 @@ DlgCProc	proc	uses ebx edi esi hDlg,message,wParam,lParam
 DlgCProc endp
 
 DlgHProc	proc	uses ebx edi esi hDlg,message,wParam,lParam
-	; ÅÅĞĞ°ñ¶Ô»°¿òµÄ´¦Àí¹ı³Ì
+	; æ’è¡Œæ¦œå¯¹è¯æ¡†çš„å¤„ç†è¿‡ç¨‹
 	local tempw[10]:CHAR
 	local temph[10]:CHAR
 	local tempm[10]:CHAR
 	local temp
 	mov eax,message
 	.if eax==WM_INITDIALOG
-		; ÔÚ¶Ô»°¿ò³õÊ¼»¯Ê±£¬½«È«¾Ö±äÁ¿ÖĞµÄÖµÌî³äµ½±à¼­¿òÖĞ
+		; åœ¨å¯¹è¯æ¡†åˆå§‹åŒ–æ—¶ï¼Œå°†å…¨å±€å˜é‡ä¸­çš„å€¼å¡«å……åˆ°ç¼–è¾‘æ¡†ä¸­
 		invoke wsprintf,addr tempw,addr szBdm,g_uPrimary
 		invoke       wsprintf,addr temph,addr szBdm,g_uSecond
 		invoke      wsprintf,addr tempm,addr szBdm,g_uAdvance
@@ -1282,14 +1282,14 @@ DlgHProc	proc	uses ebx edi esi hDlg,message,wParam,lParam
 		mov eax,wParam
 		movzx eax,ax
 		.if eax==  IDC_RESET
-			; ÖØÖÃ°´Å¥£¬½«Ó¢ĞÛ°ñÖĞµÄÊı¾İÖØÖÃÎªÄ¬ÈÏÖµ
+			; é‡ç½®æŒ‰é’®ï¼Œå°†è‹±é›„æ¦œä¸­çš„æ•°æ®é‡ç½®ä¸ºé»˜è®¤å€¼
 			invoke crt_strcpy ,addr g_szPrimary,addr szNiMing
 			invoke          crt_strcpy ,addr g_szSecond,addr szNiMing
 			invoke			crt_strcpy ,addr g_szAdvance,addr szNiMing
 			mov			g_uPrimary,DEFAULT_RECORD
 			mov			g_uSecond,DEFAULT_RECORD
 			mov			g_uAdvance,DEFAULT_RECORD
-			; ¸üĞÂ±à¼­¿òÖĞµÄÖµ
+			; æ›´æ–°ç¼–è¾‘æ¡†ä¸­çš„å€¼
 			invoke wsprintf,addr tempw,addr szBdm,g_uPrimary
 			invoke       wsprintf,addr temph,addr szBdm,g_uSecond
 			invoke      wsprintf,addr tempm,addr szBdm,g_uAdvance
@@ -1434,7 +1434,7 @@ local ok
 		mov esi,edi
 	.endw
 	mov g_nLeaveNum , 0
-	;Ê¤ÀûÔò×÷Ê¤Àû´¦Àí
+	;èƒœåˆ©åˆ™ä½œèƒœåˆ©å¤„ç†
 	mov g_uBtnState ,BUTTON_VICTORY
 	mov g_uGameState , GameState_VICTORY
 	invoke InvalidateRect,hWinMain,NULL,0
@@ -1465,7 +1465,7 @@ local ok
 	ret
 Victory endp
 ;=======================================================================================================================
-;  »ñÈ¡Ä³¸öĞ¡·½¿éÇøÓòÏàÁÚ8¸öÇøÓòµÄÀ×¸öÊı
+;  è·å–æŸä¸ªå°æ–¹å—åŒºåŸŸç›¸é‚»8ä¸ªåŒºåŸŸçš„é›·ä¸ªæ•°
 GetAroundNum proc uses ebx ecx edx esi edi row, col
 local around
 local minRow
@@ -1577,10 +1577,10 @@ local maxCol
 	mov dword ptr g_pMines[esi+8] , eax
 	mov dword ptr g_pMines[esi+16] ,eax
 
-	;ÖØ»æ
+	;é‡ç»˜
 	invoke DrawSpecialMine,row, col
 
-	;¶ÔÖÜÎ§Ò»¸öÀ×¶¼Ã»ÓĞµÄ¿Õ°×ÇøÓò
+	;å¯¹å‘¨å›´ä¸€ä¸ªé›·éƒ½æ²¡æœ‰çš„ç©ºç™½åŒºåŸŸ
 	.if around == 0
 		mov eax,minRow
 		mov ecx,2000
@@ -1837,7 +1837,7 @@ local minCol
 local maxCol
 local around
 local temp
-   ; Èç¹ûÖÜÎ§ÏàÁÚµÄ±êÖ¾À×Êı != ÖÜÎ§ÏàÁÚµÄÀ×Êı Ôò·µ»Ø
+   ; å¦‚æœå‘¨å›´ç›¸é‚»çš„æ ‡å¿—é›·æ•° != å‘¨å›´ç›¸é‚»çš„é›·æ•° åˆ™è¿”å›
 	invoke GetAroundFlags,row, col
 	mov temp,eax
 	invoke GetAroundNum,row, col
@@ -1888,8 +1888,8 @@ local temp
 			.endif
 			pop eax
 
-			.if dword ptr g_pMines[esi+8]== STATE_NORMAL;Èç¹û¸ÃÇøÓòÎªÕı³£ÇøÓò
-				;ÍØÕ¹¸ÃÀ×Çø
+			.if dword ptr g_pMines[esi+8]== STATE_NORMAL;å¦‚æœè¯¥åŒºåŸŸä¸ºæ­£å¸¸åŒºåŸŸ
+				;æ‹“å±•è¯¥é›·åŒº
 				push eax
 				push ebx
 				invoke Expand,eax,ebx
@@ -1923,7 +1923,7 @@ local maxRow
 local minCol
 local maxCol
 local temp
-    ;Èç¹ûÖÜÎ§ÏàÁÚµÄ±êÖ¾À×Êı²»µÈÓÚÖÜÎ§ÏàÁÚµÄÀ×Êı£¬Ôò·µ»Ø
+    ;å¦‚æœå‘¨å›´ç›¸é‚»çš„æ ‡å¿—é›·æ•°ä¸ç­‰äºå‘¨å›´ç›¸é‚»çš„é›·æ•°ï¼Œåˆ™è¿”å›
     invoke GetAroundFlags,row, col
     mov temp,eax
 	invoke GetAroundNum,row, col
@@ -1993,7 +1993,7 @@ local temp
 ErrorAroundFlag endp
 
 ;=======================================================================================================================
-; ´°¿Ú
+; çª—å£
 ProcWinMain	proc	uses ebx edi esi hWnd,uMsg,wParam,lParam
 local	Ps:PAINTSTRUCT
 local	@stRect:RECT
@@ -2009,12 +2009,12 @@ local	around
 		movzx eax,ax
 		.if eax==IDM_EXIT
 			invoke SendMessage,hWnd,WM_CLOSE,0,0
-		.elseif eax== IDM_START;¿ª¾Ö°´Å¥
+		.elseif eax== IDM_START;å¼€å±€æŒ‰é’®
 			invoke InitGame
 			invoke InvalidateRect,hWnd,NULL,0
 
 
-		.elseif eax== IDM_PRIMARY;³õ¼¶°´Å¥
+		.elseif eax== IDM_PRIMARY;åˆçº§æŒ‰é’®
 			mov g_uLevel , LEVEL_PRIMARY
 			mov g_uXNum , PRIMARY_XNUM
 			mov g_uYNum , PRIMARY_YNUM
@@ -2025,7 +2025,7 @@ local	around
 			invoke SizeWindow
 			invoke InvalidateRect,hWnd,NULL,0
 
-		.elseif eax== IDM_SECOND;ÖĞ¼¶°´Å¥
+		.elseif eax== IDM_SECOND;ä¸­çº§æŒ‰é’®
 			mov           g_uLevel , LEVEL_SECONDARY
 			mov           g_uXNum , SECONDARY_XNUM
 			mov         g_uYNum , SECONDARY_YNUM
@@ -2036,7 +2036,7 @@ local	around
 			invoke SizeWindow
 			invoke InvalidateRect,hWnd,NULL,0
 
-		.elseif eax== IDM_ADVANCE;¸ß¼¶°´Å¥
+		.elseif eax== IDM_ADVANCE;é«˜çº§æŒ‰é’®
 			mov          g_uLevel , LEVEL_ADVANCE
 			mov          g_uXNum , ADVANCE_XNUM
 			mov        g_uYNum , ADVANCE_YNUM
@@ -2047,7 +2047,7 @@ local	around
 			invoke SizeWindow
 			invoke InvalidateRect,hWnd,NULL,0
 
-		.elseif eax== IDM_CUSTOM;/×Ô¶¨Òå
+		.elseif eax== IDM_CUSTOM;/è‡ªå®šä¹‰
 			mov    g_uLevel , LEVEL_CUSTOM
 			invoke SetCheckedLevel
 
@@ -2058,7 +2058,7 @@ local	around
 
 		
 
-		.elseif eax== IDM_COLOR;ÑÕÉ«
+		.elseif eax== IDM_COLOR;é¢œè‰²
 			.if g_bColorful==0
 				mov g_bColorful,1
 			.else
@@ -2068,7 +2068,7 @@ local	around
 
 			invoke InvalidateRect,hWnd,NULL,0
 
-		.elseif eax== IDM_SOUND;ÉùÒô
+		.elseif eax== IDM_SOUND;å£°éŸ³
 			.if g_bSoundful==0
 				mov g_bSoundful,1
 			.else
@@ -2082,13 +2082,13 @@ local	around
 				invoke FreeWaveSrc
 			.endif
 
-		.elseif eax== IDM_HERO;ÅÅĞĞ°ñ
+		.elseif eax== IDM_HERO;æ’è¡Œæ¦œ
 			invoke DialogBoxParam,hInstance,IDD_DLG_HERO,hWnd,DlgHProc,NULL
 
-		.elseif eax== IDM_RULE;¹æÔò
+		.elseif eax== IDM_RULE;è§„åˆ™
 			invoke DialogBoxParam,hInstance,IDD_DLG_RULE,hWnd,DlgHProc,NULL
 
-		.elseif eax== IDM_ABOUT;¹ØÓÚ
+		.elseif eax== IDM_ABOUT;å…³äº
 			invoke DialogBoxParam,hInstance,IDD_DLG_INFO,hWnd,DlgHProc,NULL
 		.endif
 ;============================================================================================
@@ -2101,13 +2101,13 @@ local	around
 		movzx eax,ax
 		mov point.y,eax
 
-		;Ğ¦Á³Í¼°´Å¥ËùÔÚµÄÇøÓò
+		;ç¬‘è„¸å›¾æŒ‰é’®æ‰€åœ¨çš„åŒºåŸŸ
 		mov eax,g_uBtnRect[4];
 		mov rcBtn.left,eax
 		mov eax,g_uBtnRect[8];
 		mov rcBtn.right,eax
 
-		;À×ÇøËùÔÚµÄÇøÓò
+		;é›·åŒºæ‰€åœ¨çš„åŒºåŸŸ
 		mov eax,g_uXNum
 		mov ecx,MINE_WIDTH
 		mul ecx
